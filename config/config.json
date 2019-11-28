@@ -1,11 +1,10 @@
 {
   "development": {
     "username": "root",
-    "password": null,
+    "password": "",
     "database": "survey_node",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "operatorsAliases": false
+    "host": "localhost",
+    "dialect": "mysql"
   },
   "test": {
     "username": "root",
