@@ -25,7 +25,8 @@ module.exports = (sequelize, DataTypes) => {
       through: "UserAnswers",
       as: "answers",
       foreignKey: "answerId",
-      otherKey: "userId"
+      otherKey: "userId",
+      foreignKeyConstraint: true
     });
   };
   return Answer;
